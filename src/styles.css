@@ -1,0 +1,28 @@
+.folder {
+  background-color: cornsilk;
+  justify-content: space-between;
+  display: flex;
+  width: 300px;
+  cursor: pointer;
+}
+
+.file {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.inputContainer_input {
+  margin: 6px 0 0px 0;
+  padding: 5px;
+  display: flex;
+  bottom: 1px solid lightgray;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
